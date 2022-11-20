@@ -1,0 +1,121 @@
+@media screen and (max-width:820px) {
+    .contact>main{
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+       h1{
+        margin: auto;
+        margin-top: 200px;
+       }
+        >form{
+            justify-content: flex-start;
+            >button{
+                padding: 10px 50px;
+                border-radius: 5px;
+                margin-top: 50px;
+            }
+        }
+    }
+}
+@media screen and (max-width:700px) {
+    .mynav
+    {
+        >h1{
+            display: none;
+        }
+        >main{
+            flex-basis: 100%;
+            font-size: 15px;
+            >a{
+                margin: 0.4rem;
+            }
+        }
+    }
+    // .contact>main{
+    //     width: 100%;
+    //     height: 100%;
+    //     border-radius: 0px;
+    //    h1{
+    //     margin: auto;
+    //     margin-top: 200px;
+    //    }
+    //     >form{
+    //         justify-content: flex-start;
+    //         >button{
+    //             padding: 10px 50px;
+    //             border-radius: 5px;
+    //             margin-top: 50px;
+    //         }
+    //     }
+    // }
+    .footer
+    {
+        flex-wrap: wrap;
+        >div{
+            flex-basis: 100%;
+            align-items: center;
+        }
+    }
+    .home{
+        align-items: center;
+        justify-content: center;
+        border-radius: 0px;
+        &::before
+        {
+            border-radius: 0px;
+        }
+        main{
+            justify-content: center;
+            align-items: center;
+            >h1{
+                font-size: 35px;
+                margin-bottom: 20px;
+            }
+            p{
+                font-size:  20px ;
+                
+            }
+        }
+    }
+    .home3
+    {
+        margin: 0px;
+        align-items: center;
+        justify-content: center;
+        >div{
+            width: 100%;
+            border-radius: 0px;
+            height: 100%;
+        }
+    }
+    .home2
+    {
+        margin: 0px;
+        height: 120px;
+        flex-direction: column;
+        >img{
+            width: 100%;
+        }
+        >div{
+            text-align: start;
+            font-size: 20px;
+            padding: 20px 0px
+        }
+    }
+    .home4 
+    {
+        width: 100%;
+        height: 120vh;
+        padding: 0px;
+        
+        >div{
+            width: 100%;
+            height: 100%;
+            border-radius: 0px;
+            flex-direction: row;
+            >article{
+                flex-wrap: wrap;
+            }
+        }
+    }
+}

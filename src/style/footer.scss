@@ -1,0 +1,28 @@
+@import "colors";
+.footer
+{
+    width: 100%;
+    padding: 70px 0px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    >div{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-transform: uppercase;
+        >h1{
+            font: 700 40px $text2;
+        }
+        >p{
+            font: 500 16px $text2;
+        }
+        >div{
+            font-size: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}
